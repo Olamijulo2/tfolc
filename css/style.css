@@ -7,6 +7,7 @@
 body {
     font-family: 'Mulish';
     font-style: normal;
+    width: 100%;
 }
 p {
     font-weight: 500;
@@ -197,15 +198,19 @@ h1 {
     margin-left: 30%;
 }
 .divider {
+    position: relative;
     clip-path: circle(25px at 30px 30px);
     background-color: white;
     height: 80px;
     margin-top: -150px;
     margin-left: 47.85%;
+    /* border: 1px solid red;
+    width: 5%;
+    border-radius: 50%; */
 }
 .bi-quote {
     padding: 20px;
-    margin-left: -1.3%;
+    margin-left: -1.5% !important;
     font-size: 40px;
     color: #A41C25;
 }
@@ -231,7 +236,7 @@ h1 {
     display: block;
     margin-left: 37%;
     margin-right: 37%;
-    border: 4px solid #4D4343
+    border: 4px solid #4D4343;
 }
 .statements {
     width: 80%;
@@ -594,7 +599,7 @@ h1 {
 /* MUSIC & DISCIPLINSHIP JOURNEY */
 .disciplinship_container {
     width: 100%;
-    height: 851px;
+    height: 850px !important;
     background: url(/img/carousel_bg.png);
     margin-bottom: 40px;
 }
@@ -641,10 +646,9 @@ h1 {
 .register_container p {
     width: 300px;
 }
-.register_video {
+.register_container iframe {
     width: 564px;
     height: 278px;
-    /* background: url(/img/register_image.png); */
     border-radius: 10px;
 }
 .Curriculum h3  {
@@ -692,9 +696,10 @@ h1 {
     margin-bottom: 54px;
 }
 .pastors_container h3 {
-    width: 249px;
+    width: 100%;
     height: 38px;
-    margin-left: 600px;
+    margin-left: 0px !important;
+    text-align: center;
 }
 .pastors {
     width: 1245.85px;
@@ -988,6 +993,12 @@ h1 {
 
 
 @media (min-width: 320px) and (max-width: 765px) {
+    html,
+    body {
+    width:100%;
+    overflow-x:hidden;
+    }
+    
     .banner {
         height: 562px;
         background: url(/img/banner_bg_mobile.png);
@@ -997,7 +1008,6 @@ h1 {
         width: 120px;
         line-height: 0px;
         margin-top: 10px;
-        /* border: 1px solid blue; */
         margin-left: 0px !important;
     }
     .header_nav a:hover {
@@ -1110,6 +1120,7 @@ h1 {
         height: 240px;
         color: white;
         margin-top: 2%;
+        /* z-index: 1; */
     }
     .promise1 { 
         display: flex;
@@ -1117,22 +1128,31 @@ h1 {
         justify-content: center;
         align-items: center;
         height: 110px;
-        width: 30%;
-        margin-left: 35%;
-        border-bottom: 1px solid white;
+        width: 100%;
+        margin-left: 0%;
+        /* border-bottom: 2px solid white; */
         margin-top: 0%;
+    }
+    .promise1::after {
+        content: '';
+        display: block;
+        margin-left: 30% !important;
+        margin-right: 30% !important;
+        border: 2px solid white;
+        width: 40%;
     }
     .promise1 h3 {
         color: white !important;
         margin-left: -1px !important;
     }
     .promises h3 {
-        width: 200px;
+        width: 250%;
         height: 18px;
         font-size: 18px;
         line-height: 18px;
         color: white !important;
-        margin-left: 30px;
+        margin-left: 0px;
+        text-align: center;
     }
     .promises p {
         display: flex;
@@ -1140,12 +1160,13 @@ h1 {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 200px;
-        height: 15px;
+        width: 70%;
+        /* width: 200px; */
+        height: 45px;
         font-size: 10px;
         line-height: 15px;
         color: white !important;
-
+        /* z-index: -1; */
     }
     .promise2 {
         display: flex;
@@ -1153,28 +1174,30 @@ h1 {
         justify-content: center;
         align-items: center;
         height: 120px;
-        width: 30%;
+        width: 100%;
         margin-top: -4%;
         padding-top: 5%;
-        margin-left: 35%;
-        border-top: 1px solid white;
+        margin-left: 0%;
+        /* border: 1px solid red; */
+        /* border-top: 2px solid white; */
     }
     .divider {
         clip-path: circle(15px at 30px 30px);
-        margin-top: -160px;
+        margin-top: -173px;
         margin-left: 40%;
-        padding-top: 7px;
+        padding-top: 10px;
+        margin-bottom: 90px;
     }
     .bi-quote {
         margin-left: -2.3%;
         margin-top: 50%;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     /* MISSION STATEMENT */
     .statement_container {
         margin-top: 70px !important;
-        height: 1580px;
+        height: 1700px;
     }
     .statement_container h2 {
         width: 245px;
@@ -1197,7 +1220,7 @@ h1 {
     .vision,
     .ministry {
         width: 100%;
-        height: 180px;
+        height: 190px;
         margin-left: 0px;
         border: 4px solid #4D4343;
         box-shadow: 0px 2px 2px 0.5px #A41C25;
@@ -1207,23 +1230,25 @@ h1 {
     .mission h3,
     .vision h3,
     .ministry h3 {
-        width: 60px;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
         margin-top: 5px;
         font-size: 15px;
+        text-align: center;
     }
     .mission p,
     .vision p,
     .ministry p {
-        width: 210px;
+        width: 90%;
         height: 115px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 12px;
+        text-align: center;
     }   
     .beliefs {
         width: 100%;
-        height: 690px;
+        height: 810px;
         margin-left: 0px;
         margin-top: 0px;
         border: 4px solid #4D4343;
@@ -1232,16 +1257,18 @@ h1 {
         border-radius: 0px 7.5px;
     }
     .beliefs h3 {
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
         margin-top: 5px;
         font-size: 15px;
+        text-align: center;
     }
     .beliefs ul {
-        width: 98%;
-        height: 630px;
-        margin-left: 0px;
+        width: 100%;
+        height: 750px;
+        margin-left: -5%;
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 12px;
     }
     .core_values {
         width: 100%;
@@ -1252,925 +1279,20 @@ h1 {
         border-radius: 0px 7.5px;
     }
     .core_values h3 {
-        width: 130px;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
         margin-top: 5px;
         font-size: 15px;
+        text-align: center;
     }
     .value_lists {
         margin-left: 0%;
         width: 100% !important;
-        font-size: 10px;
+        font-size: 12px;
     }
     .value_lists ul {
-        margin-left: -28px;
-    }
-    .listA ul{
-        margin-left: -30px;
-    }
-    .list1 {
-        padding-left: 0%;
-    }
-    .bar2 {
-        width: 158px;
-    }
-    .dot_box2 {
-        background-image: none;
-        margin-left: 0px;
-    }
-    
-    /* UPPER ROOM  */
-    .upper_room_container {
-        margin-bottom: 0px !important;
-        width: 100%;
-        margin-left: 0%;
-        margin-top: 15%;
-
-    }
-    .upper_room {
-        width: 80px;
-        height: 80px;
-        margin-left: -9px;
-        margin-top: -6px;
-        background: url(/img/pray_pic_mobile.png);
-    }
-    .upper_room_frame {
-        width: 80px;
-        height: 80px;
-        border: 2px solid #A41C25;
-    }
-    .upper_room_content {
-        width: 75%;
-        height: 85px;
-    }
-    .upper_room_content h3 {
-        width: 220px;
-        height: 76px;
-        font-size: 18px;
-        line-height: 18px;
-    }
-    .information {
-        width: 200px;
-    }
-    .upper_room_info {
-        width: 65%;
-        height: 69px;
-        font-size: 10px;
-    }
-    .upper_room_info p {
-        width: 200px;
-        height: 69px;
-        font-size: 15px;
-        line-height: 13px;
-        margin-top: -40px;
-        margin-left: -17px;
-    }
-    .upper_room_link {
-        width: 69px;
-        height: 34px;
-        margin-left: 165px !important;
-        margin-top: -100px !important;
-        background: url(/img/google_meet_image_mobile.png);
-    }
-    .seperate {
-        border-left: none;
-        border-top: 3px solid #4D4343;
-        padding-left: 37px;
-        margin-top: 18px;
-    }
-    .welcome {
-        width: 50%;
-        margin-left: 25%;
-    }
-    .welcome h3 {
-        width: 247px;
-        height: 76px;
-        font-size: 18px;
-        line-height: 18px;
-        text-align: center;
-        margin-left: -90px !important;
-    }
-    
-    /* PROGRAMS */
-    .programs {
-        margin-left: 2px;
-    }
-    .programs_divider {
-        width: 154px;
-        border-left: 5px solid #4D4343;
-        margin-top: -20px;
-        margin-left: 72px;
-        height: 23px;
-    }
-    .soak .programs_divider {
-        margin-left: 100px;
-        width: 70px;
-    }
-    .grace p,
-    .charis p,
-    .soak p {
-        width: 254px;
-        font-size: 10px;
-        line-height: 13px;
-        text-align: center;
-        margin-left: 12px;
-
-    }
-    .grace h3,
-    .charis h3,
-    .soak h3 {
-        width: 180px;
-        font-size: 15px;
-        line-height: 22px;
-        margin-left: 12px;
-    }
-    .charis {
-        margin-top: -50px;
-    }
-    .soak {
-        margin-top: -50px;
-    }
-
-    /* CAROUSEL */
-    .carousel_container {
-        height: 560px;
-        margin-top: 0px;
-    }
-    .carousel_container h3 {
-        width: 166px;
-        margin-left: 10%;
-        margin-top: 5px;
-        font-size: 18px;
-    }
-    .carousel_main {
-        width: 100%;
-        margin-left: 0% !important;
-        height: 420px;
-    }
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 50px;
-        margin-left: -10px !important;
-        margin-right: -10px !important;
-    }
-    .bar3 {
-        width: 50px;
-        margin-left: -10px;
-    }
-    .bar4 {
-        width: 50px;
-        margin-left: 280px;
-        margin-top: 10px;
-    }
-    .dot_box3 {
-        background-image: url(/img/dotted_box_mobile.png);
-        width: 85px;
-        height: 80px;
-        margin-left: 230px;
-        margin-top: -100px;
-    }
-    .carousel_large {
-        display: none;
-    }
-    .carousel_mobile {
-        display: block !important;
-    }
-    .carousel_mobile img {
-        margin-bottom: 12px;
-    }
-    
-    /* LISTEN  */
-    .listen_container {
-        height: 238px;
-        width: 100%;
-    }
-    .listen {
-        width: 320px;
-        height: 138px;
-        box-shadow: 0px 2px 2px #F81A29;
-        border-radius: 7px;
-    }
-    .testimonies_list {
-        height: 238px;
-    }
-    .listen_message h3 {
-        width: 70px;
-        margin-left: 5px;
-        margin-top: 25px;
-        font-size: 18px;
-    }
-    .listen_message p {
-        width: 150px;
-        margin-left: 5px;
-        margin-top: 0px;
-        font-size: 10px;
-        line-height: 13px;
-    }
-    .radio_link {
-        width: 100px;
-        height: 100px;
-        margin-right: 0px;
-        margin-top: 20px;
-        border-radius: 4px;
-        margin-left: -5px;
-    }
-    .earphone {
-        width: 70px;
-        height: 60px;
-        margin-top: 10px;
-        margin-left: 5px;
-    }
-    .speaker {
-        margin-left: 25px;
-        width: 30px;
-        height: 30px;
-        margin-top: -10px;
-    }
-    .testimonies {
-        height: 138px;
-        height: 210px;
-        padding: 0px 0px;
-        margin-top: 20px;
-    }
-    .testimonies1 {
-        width: 50%;
-        height: 210px;
-    }
-    .testimonies1 img {
-        width: 20px;
-        margin-top: 12px;
-        height: 20px;
-    }
-    .testimonies1 p {
-        width: 90%;
-        height: 126px;
-        margin-left: 10px;
-        margin-top: 12px;
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .testimonies1 .testimony_name {
-        width: 90%;
-        height: 23px;
-        font-size: 12px;
-    }
-    .testimonies1 .testimony_name2 {
-        margin-top: -30px;
-        width: 90%;
-        height: 23px;
-        font-size: 12px;
-    }
-    .test_button_prev,
-    .test_button_next {
-        margin-left: -5px !important;
-        margin-right: 0px !important;
-    }
-
-    /* MUSIC & DISCIPLINSHIP JOURNEY */
-    .disciplinship_container {
-        width: 100%;
-        height: 920px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .grace_music {
-        width: 100%;
-        height: 235px;
-        margin-left: 0px;
-        background: url(/img/grace_music_mobile.png);
-        border-radius: 7px;
-    }
-    .grace_music_label {
-        width: 80%;
-        height: 109px;
-        margin-left: 35px;
-        margin-top: 70px;
-    }
-    .grace_music_label h3 {
-        width: 220px;
-        font-size: 18px;
-        margin-left: 15px;
-    }
-    .grace_music_label img {
-        margin-top: 20px;
-        margin-left: 23px;
-    }
-    .yt_play {
-        margin-left: -47px;
-    }
-    .yt {
-        margin-left: 170px;
-    }
-    .register_container {
-        padding: 30px 0px 30px 0px;
-    }
-    .register_container h3 {
-        width: 280px;
-        font-size: 18px;
-        margin-left: 45px;
-    }
-    .register_container p {
-        width: 250px;
-        font-size: 15px;
-        margin-left: 55px;
-    }
-    .register_video {
-        width: 100%;
-    }
-    .Curriculum {
-        width: 100%;
-    }
-    .Curriculum h3  {
-        width: 220px;
-        margin-top: 15px;
-        font-size: 18px;
-        margin-left: 45px;
-    }
-    .Curriculum p {
-        width: 100%;
-        margin-top: 0px !important;
-        font-size: 15px;
-        text-align: center;
-    }
-    .Curriculum button {
-        width: 120px;
-        height: 43px;
-        margin-left: 90px;
-        margin-top: 0px;
-        border-radius: 3px;
-    }
-    .bar5 {
-        width: 70px;
-        margin-left: 275px;
-        margin-top: 150px !important;
-    }
-    .bar6 {
-        width: 70px;
-        margin-left: 0px;
-    }
-
-    /* PASTORS */
-    .pastors_container {
-        width: 100%;
-        height: 1523px;
-        padding-top: 0px;
-        margin-bottom: 34px;
-    }
-    .pastors_container h3 {
-        width: 100%;
-        margin-left: 0px;
-        font-size: 18px;
-        text-align: center;
-    }
-    .pastors {
-        width: 100%;
-        height: 1560px;
-        margin-left: 0px;
-    }
-    .pastor_tolu_info {
-        width: 100%;
-    }
-    .pastor_tolu p,
-    .pastor_funke p {
-        width: 100%;
-        font-size: 12px;
-        margin-left: 0px;
-    }
-    .pastor_tolu span,
-    .pastor_funke span {
-        width: 179px;
-        font-size: 15px;
-        margin-left: 0px;
-    }
-    .pastor_funke_image {
-        margin-top: -800px;
-        height: 100%;
-        margin-left: 70%;
-    }
-    .pastor_funke_info {
-        margin-top: 160px;
-        width: 100%;
-    }
-    .pastor_funke img {
-        margin-left: 0px !important;
-    }
-    .bar7 {
-        width: 70px;
-        margin-left: 275px;
-        margin-bottom: 50px;
-    }
-
-    /* WEEKLY NUGGETS */
-    .spiritual_hunger {
-        height: 465px;
-        width: 110%;
-        margin-left: -5%;
-    }
-    .spiritual_hunger1,
-    .spiritual_hunger2,
-    .spiritual_hunger3 {
-        margin-top: -116px;
-        margin-left: -35px;
-        width: 185px;
-        height: 100px;
-        border-bottom: 11px solid #A41C25;
-    }
-    .spiritual_hunger1 {
-        background: url(/img/spiritual_hunger1_mobile.png);
-    }
-    .spiritual_hunger2 {
-        background: url(/img/spiritual_hunger2_mobile.png);
-    }
-    .spiritual_hunger3 {
-        background: url(/img/spiritual_hunger3_mobile.png);
-    }
-    .spiritual_hunger1_verse {
-        width: 100%;
-        height: 95px;
-        margin-top: 28px;
-        margin-left: 17px;
-        box-shadow: 0px 2px 2px rgba(164, 28, 37, 0.44);
-        border-radius: 0px 10px 10px 0px;
-        margin-bottom: 50px;
-    }
-    .spiritual_hunger1_verse h3 {
-        width: 150px;
-        height: 66px;
-        margin-left: 155px;
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .spiritual_hunger1_verse p {
-        width: 150px;
-        margin-left: 155px;
-        font-size: 12px;
-    }
-    .key_nuggets {
-        width: 100%;
-        height: 602px;
-        margin-left: 0px;
-        box-shadow: 0px 2px 2px rgba(164, 28, 37, 0.44);
-    }
-    .key_nuggets_header {
-        width: 100%;
-        height: 42px;
-        padding-top: 2px;
-    }
-    .key_nuggets_header h3 {
-        width: 175px;
-        margin-left: 80px;
-        font-size: 18px;
-    }
-    .spiritual_hunger_header {
-        width: 135px;
-        margin-left: 100px;
-        font-size: 18px;
-    }
-    .key_nuggets ul li {
-        width: 100%;
-        font-size: 15px;
-        margin-bottom: 5px;
-    }
-    .subscribe {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 26px;
-        margin-bottom: 26px;
-        padding-top: 13px;
-    }
-    .subscribe p {
-        width: 237px;
-        height: 23px;
-        margin-left: 5px;
-        font-size: 15px;
-    }
-    .bi-send-fill {
-        font-size: 18px;
-        margin-left: 5px !important;
-    }
-
-    /* FOOTER  */
-    .dot_box4 {
-        background-image: url(/img/dotted_box_mobile.png);
-        width: 65px;
-        height: 60px;
-        margin-left: 83%;
-        margin-top: -40px;
-    }
-    .foot_container {
-        width: 100%;
-        height: 1020px;
-    }
-    .foot_info {
-        height: 430px;
-        width: 100%;
-        margin-left: 0%;
-    }
-    .foot_info h3 {
-        width: 187px;
-        font-size: 18px;
-        margin-left: -13px;
-        margin-top: -40px;
-        text-align: center;
-    }
-    .foot_info p {
-        width: 100%;
-        font-size: 9px;
-        margin-left: -15px;
-        line-height: 20px;
-    }
-    .salvation h3 {
-        text-align: center;
-        margin-left: 50px;
-    }
-    .salvation p {
-        text-align: center;
-        margin-left: 0px;
-    }
-    .benediction h3 {
-        width: 100px;
-        margin-left: -18px;
-    }
-    .benediction p {
-        width: 170px;
-    }
-    .benediction span a {
-        margin-right: 20px;
-    }
-    .socials {
-        margin-left: 35%;
-        width: 100%;
-    }
-    .location h3 {
-        width: 84px;
         margin-left: -8px;
     }
-    .location p {
-        margin-left: -43px;
-        width: 200%;
-        text-align: right;
-    }
-    .foot_form {
-        height: 471px;
-        width: 100%;
-    }
-    .form_container {
-        width: 98%;
-        height: 471px;
-        margin-left: 1%;
-    }
-    .foot_form h3 {
-        width: 100%;
-        height: 36px;
-        margin-left: 0px;
-        margin-top: 22px;
-        font-size: 18px;
-        text-align: center;
-    }
-    .foot_form p {
-        width: 100%;
-        height: 23px;
-        margin-left: 0px;
-        font-size: 15px;
-        text-align: center;
-    }
-    .foot_container form {
-        margin-left: 0px;
-        width: 100%;
-    }
-    .foot_container form input {
-        width: 90%;
-        height: 33px;
-        margin-bottom: 10px;
-        margin-left: 5%;
-    }
-    .foot_container ::placeholder {
-        font-size: 15px;
-    }
-    .foot_container form textarea {
-        width: 90%;
-        margin-left: 5%;
-        margin-bottom: 20px;
-    }
-    .foot_container button {
-        width: 90%;
-        margin-left: 5%;
-    }
-    .copyright {
-        width: 100%;
-        height: 23px;
-        margin-left: 0px;
-        margin-top: 16px;
-        font-size: 10px !important;
-        line-height: 13px;
-        text-align: center;
-    }
-    .copyright p {
-        width: 100%;
-        height: 23px;
-        font-size: 10px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 765px) and (max-width: 1024px) {
-    .banner {
-        height: 562px;
-        background: url(/img/banner_bg_mobile.png);
-    }
-    .header_nav a {
-        font-size: 12px;
-        width: 120px;
-        line-height: 0px;
-        margin-top: 10px;
-        /* border: 1px solid blue; */
-        margin-left: 0px !important;
-    }
-    .header_nav a:hover {
-        color: #A41C25;
-    }
-    .bi-dot {
-        position: relative;
-        display: inline !important;
-        font-size: 35px;
-        text-align: center;
-        top: 9px;
-        color: #A41C25;
-    }
-    .header_nav {
-        width: 150px;
-        height: 200px;
-        border-radius: 10px;
-        margin-top: 5px;
-        background: none;
-        margin-left: -30%;
-    }
-    .logo {
-        width: 157.91px;
-        height: 59px;
-        background: url(/img/Grace-logo-WHITE-png\ mobile.png);
-    }
-    .navbar-toggler {
-        margin-top: 15px !important; 
-        font-size: 7px;
-        border: 1px solid black;
-        background-color: #A41C25;
-        outline: none;
-    }
-
-    /* CONTENT  */
-    .banner_content {
-        width: 342.17px;
-        height: 260.61px;
-        margin-left: -3%;
-        margin-top: 140px;
-    }
-    .banner_content h1 {
-        font-size: 55px;
-        line-height: 53px;
-        height: 159px;
-        width: 307px;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    .brief {
-        font-size: 13px;
-        line-height: 16px;
-        width: 320px;
-        height: 69px;
-    }
-    .verse {
-        width: 84.17px;
-        height: 23.61px;
-        margin-left: 200px;
-        margin-top: 15px;
-        border: 0.5px solid #A41C25;
-        filter: drop-shadow(0px 2px 2px #FAFAFA);
-    }
-    .verse p {
-        width: 44px;
-        height: 14px;
-        margin-left: 20.02px;
-        margin-top: 0px;
-        font-size: 9.23869px;
-    }
-
-    /* SERMON */
-    .live_sermon {
-        width: 305px;
-        height: 150px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 5px;
-        background: url(/img/live_sermon_bg_mobile.png);
-        border-radius: 16.4716px;
-    }
-    .play {
-        width: 60%;
-        height: 110%;
-        margin-left: 20%;
-        margin-top: -15%;
-        background-image: url(/img/play_live_mobile.png);
-    }
-    .bar1 {
-        width: 158px;
-        height: 21px;
-        margin-top: 15px;
-    }
-    .dot_box1 {
-        background-image: url(/img/dotted_box_mobile.png);
-        width: 85px;
-        height: 80px;
-        margin-left: 230px;
-        margin-top: 0px;
-    }
-
-    /* PROMISES */
-    .promise_left {
-        border-right: none;
-    }
-    .promise_right {
-        border-left: none;
-    }
-    .promises {
-        height: 240px;
-        color: white;
-        margin-top: 2%;
-    }
-    .promise1 { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 110px;
-        width: 30%;
-        margin-left: 35%;
-        border-bottom: 1px solid white;
-        margin-top: 0%;
-    }
-    .promise1 h3 {
-        color: white !important;
-        margin-left: -1px !important;
-    }
-    .promises h3 {
-        width: 200px;
-        height: 18px;
-        font-size: 18px;
-        line-height: 18px;
-        color: white !important;
-        margin-left: 30px;
-    }
-    .promises p {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 200px;
-        height: 15px;
-        font-size: 10px;
-        line-height: 15px;
-        color: white !important;
-
-    }
-    .promise2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        width: 30%;
-        margin-top: -4%;
-        padding-top: 5%;
-        margin-left: 35%;
-        border-top: 1px solid white;
-    }
-    .divider {
-        clip-path: circle(15px at 30px 30px);
-        margin-top: -160px;
-        margin-left: 40%;
-        padding-top: 7px;
-    }
-    .bi-quote {
-        margin-left: -2.3%;
-        margin-top: 50%;
-        font-size: 30px;
-    }
-
-    /* MISSION STATEMENT */
-    .statement_container {
-        margin-top: 70px !important;
-        height: 1580px;
-    }
-    .statement_container h2 {
-        width: 245px;
-        margin-left: 50px;
-        margin-top: 12px;
-        font-size: 18px;
-        line-height: 38px;
-    }
-    .statement_container h2::after{
-        border: 2px solid #4D4343;
-        background-color: #4D4343;
-    }
-    .statements {
-        width: 80%;
-        height: 1470px;
-        margin-left: 10%;
-        margin-top: 29px;
-    }
-    .mission,
-    .vision,
-    .ministry {
-        width: 100%;
-        height: 180px;
-        margin-left: 0px;
-        border: 4px solid #4D4343;
-        box-shadow: 0px 2px 2px 0.5px #A41C25;
-        border-radius: 0px 15px;
-        margin-bottom: 5%;
-    }
-    .mission h3,
-    .vision h3,
-    .ministry h3 {
-        width: 60px;
-        margin-left: 20px;
-        margin-top: 5px;
-        font-size: 15px;
-    }
-    .mission p,
-    .vision p,
-    .ministry p {
-        width: 210px;
-        height: 115px;
-        margin-left: 20px;
-        margin-top: 0px;
-        font-size: 10px;
-    }   
-    .beliefs {
-        width: 100%;
-        height: 690px;
-        margin-left: 0px;
-        margin-top: 0px;
-        border: 4px solid #4D4343;
-        box-shadow: 0px 2px 2px 0.5px #A41C25;
-        margin-bottom: 5%;
-        border-radius: 0px 7.5px;
-    }
-    .beliefs h3 {
-        margin-left: 20px;
-        margin-top: 5px;
-        font-size: 15px;
-    }
-    .beliefs ul {
-        width: 98%;
-        height: 630px;
-        margin-left: 0px;
-        margin-top: 0px;
-        font-size: 10px;
-    }
-    .core_values {
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 0px;
-        border: 4px solid #4D4343;
-        box-shadow: 0px 2px 2px 0.5px #A41C25;
-        border-radius: 0px 7.5px;
-    }
-    .core_values h3 {
-        width: 130px;
-        margin-left: 20px;
-        margin-top: 5px;
-        font-size: 15px;
-    }
-    .value_lists {
-        margin-left: 0%;
-        width: 100% !important;
-        font-size: 10px;
-    }
-    .value_lists ul {
-        margin-left: -28px;
-    }
     .listA ul{
         margin-left: -30px;
     }
@@ -2191,7 +1313,6 @@ h1 {
         width: 100%;
         margin-left: 0%;
         margin-top: 15%;
-
     }
     .upper_room {
         width: 80px;
@@ -2235,7 +1356,7 @@ h1 {
         width: 69px;
         height: 34px;
         margin-left: 165px !important;
-        margin-top: -100px !important;
+        margin-top: -110px !important;
         background: url(/img/google_meet_image_mobile.png);
     }
     .seperate {
@@ -2243,6 +1364,7 @@ h1 {
         border-top: 3px solid #4D4343;
         padding-left: 37px;
         margin-top: 18px;
+        padding-top: 10px;
     }
     .welcome {
         width: 50%;
@@ -2280,7 +1402,6 @@ h1 {
         line-height: 13px;
         text-align: center;
         margin-left: 12px;
-
     }
     .grace h3,
     .charis h3,
@@ -2480,8 +1601,10 @@ h1 {
         font-size: 15px;
         margin-left: 55px;
     }
-    .register_video {
-        width: 100%;
+    .register_container iframe {
+        width: 90%;
+        height: 178px;
+        margin-left: 5%;
     }
     .Curriculum {
         width: 100%;
