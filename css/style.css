@@ -921,7 +921,7 @@ h1 {
     outline: #A41C25;
 }
 .foot_container ::placeholder {
-    padding-left: 200px !important;
+    /* padding-left: 200px !important; */
     color: #4D4343;
 }
 .foot_container form textarea {

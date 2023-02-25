@@ -859,6 +859,11 @@
         width: 130%;
         text-align: right;
     }
+    .number {
+        margin-left: -50% !important;
+        /* border: 1px solid red !important; */
+        width: 150% !important;
+    }
     .mail {
         margin-left: -80% !important;
         width: 170% !important;
