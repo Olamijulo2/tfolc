@@ -31,7 +31,8 @@ h1 {
 
 /* BANNER  */
 .banner {
-    width: 100%;
+    /* width: 100%; */
+    /* height: 150vh; */
     height: 787px;
     background: url(/img/banner_bg.png);
     /* background-repeat: no-repeat; */
@@ -49,23 +50,25 @@ h1 {
     margin-left: 5%;
 }
 .header_nav {
-    width: 570px;
-    height: 38px;
+    width: 100%;
+    /* width: 570px; */
+    /* height: 38px; */
     /* background: white; */
     background: #A41C25;
     margin-top: 5%;
     border-radius: 15px;
     /* text-align: center; */
-    padding-top: 8px;
+    padding: 1% 0%;
 }
 .header_nav a {
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px;
+    /* line-height: 23px; */
     color: #FAFAFA;
     text-decoration: none;
     margin-right: 35px !important;
     /* margin-top: 50px !important; */
+    /* border: 1px solid red; */
 }
 .logo {
     width: 273px;
@@ -85,183 +88,201 @@ h1 {
 
 /* CONTENT  */
 .banner_content {
-    width: 790px;
-    height: 397px;
-    margin-left: 100px;
-    margin-top: 125px;
+    width: 60%;
+    /* height: 397px; */
+    margin-left: 5%;
+    margin-top: 15%;
+    /* border: 1px solid red; */
 }
 .banner_content h1 {
     color: #FAFAFA;
-    height: 246px;
+    /* height: 246px; */
 }
 .brief {
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-    width: 724px;
-    height: 69px;
+    width: 80%;
+    /* height: 69px; */
     color: #FAFAFA;
 }
 .verse {
-    width: 164px;
-    height: 46px;
+    width: 20%;
+    /* height: 46px; */
     border: 1px solid #A41C25;
     filter: drop-shadow(0px 4px 4px #FAFAFA);
+    /* margin-bottom: 5%; */
 }
 .verse p {
-    width: 86px;
-    height: 27px;
-    margin-left: 39px;
-    margin-top: 10px;
+    width: 100%;
+    /* height: 27px; */
+    /* margin-left: 39px; */
+    margin-top: 10%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 /* SERMON */
 .live_sermon {
-    width: 649.21px;
-    height: 320px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    background: url(/img/live_sermon_bg.png);
-    border-radius: 16.4716px;
-    padding-top: 79px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* background: url(/img/live_sermon_bg.png); */
+    background-size: cover;
+    border-radius: 15px;
+    /* border: 1px solid red; */
 }
 .play {
-    width: 290px;
-    height: 162px;
-    margin-left: 180px;
-    background-image: url(/img/play_live.png);
+    margin-left: 25%;
+    margin-top: -50%;
+    /* background-image: url(/img/play_live.png); */
+    /* border: 1px solid red; */
 }
 .bar1 {
-    width: 288px;
+    width: 50%;
     height: 21px;
-    margin-left: -83px;
-    margin-top: 283px;
+    margin-left: -1%;
+    margin-top: 5%;
     background: #A41C25;
 }
 .dot_box1 {
     background-image: url(/img/dotted_box.png);
-    width: 130px;
-    height: 122px;
-    margin-left: 80px;
-    margin-top: 253px;
+    width: 42%;
+    height: 18vh;
+    margin-left: 45%;
+    margin-top: 70%;
+    /* margin-top: 253px; */
 }
 
 /* PROMISES */
-.promise_left {
-    border-right: 1px solid white;
-}
-.promise_right {
-    border-left: 1px solid white;
-}
-.promises {
-    width: 100%;
-    height: 256px;
+.promises_container {
     background: #A41C25;
     color: #FAFAFA;
+    /* height: 100%; */
+    border: 2px solid #A41C25;
+}
+.promise_right {
+    border-left: 2px solid white;
 }
 .promise1 {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start; */
-    height: 110px;
     width: 70%;
     margin-left: 30%;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 .promises h3 {
-    width: 226px;
-    height: 76px;
+    width: 50%;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
     color: white;
+    margin-bottom: 5%;
 
 }
 .promises p {
-    width: 315px;
-    height: 23px;
+    width: 80%;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
     color: white;
 }
 .promise2 {
-    height: 220px;
     width: 70%;
     margin-top: 3%;
     margin-left: 30%;
+    margin-bottom: 3%;
 }
 .divider {
-    position: relative;
-    clip-path: circle(25px at 30px 30px);
+    /* position: relative; */
+    /* clip-path: circle(25px at 30px 30px); */
     background-color: white;
-    height: 80px;
+    height: 50px;
+    width: 50px;
     margin-top: -150px;
-    margin-left: 47.85%;
-    /* border: 1px solid red;
-    width: 5%;
-    border-radius: 50%; */
-}
+    margin-bottom: 100px;
+    margin-left: 48.2%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
 .bi-quote {
-    padding: 20px;
-    margin-left: -1.5% !important;
     font-size: 40px;
     color: #A41C25;
 }
 
 /* MISSION STATEMENT */
-.statement_container {
-    margin-top: 70px !important;
+.statement_header {
     background-color: black;
-    height: 1230px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A41C25;
+
 }
-.statement_container h2 {
+.statement_header  h2 {
     width: 100%;
     height: 38px;
-    margin-top: 52px;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
-    color: #A41C25;
-    text-align: center;
 }
-.statement_container h2::after{
+.statement_header h2::after{
     content: '';
     display: block;
-    margin-left: 37%;
-    margin-right: 37%;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 3%;
     border: 4px solid #4D4343;
 }
-.statements {
-    width: 80%;
-    height: 1117px;
-    margin-left: 10%;
-    margin-top: 29px;
+.msm_container,
+.beliefs_container,
+.value_container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+    /* border: 2px solid blue; */
+}
+.church_statement,
+.belief_statement,
+.value_statement {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
 }
 .mission,
 .vision,
 .ministry {
-    width: 322px;
-    height: 322px;
-    margin-left: 8px;
+    width: 25%;
+    height: 100%;
     border: 8px solid #4D4343;
     box-shadow: 0px 4px 4px 1px #A41C25;
     border-radius: 0px 30px;
+    margin: 1%;
+}
+.mission,
+.vision {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .mission h3,
 .vision h3,
 .ministry h3 {
-    width: 108px;
-    height: 38px;
-    margin-left: 27px;
-    margin-top: 42px;
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 15%;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
@@ -270,74 +291,77 @@ h1 {
 .mission p,
 .vision p,
 .ministry p {
-    width: 268px;
-    height: 184px;
-    margin-left: 27px;
-    margin-top: 16px;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 10%;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
     color: #FAFAFA;
 }   
 .beliefs {
-    width: 975px;
-    height: 474px;
-    margin-left: 47px;
-    margin-top: 32px;
+    width: 80%;
+    height: 100%;
     border: 8px solid #4D4343;
     /* filter: drop-shadow(0px 4px 4px #A41C25); */
     box-shadow: 0px 4px 4px 1px #A41C25;
     border-radius: 0px 15px;
+    margin: 1%;
 }
 .beliefs h3 {
-    width: 157px;
-    height: 38px;
-    margin-left: 44px;
-    margin-top: 26px;
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
     color: #A41C25;
 }
 .beliefs ul {
-    width: 887px;
-    height: 368px;
-    margin-left: 44px;
-    margin-top: 16px;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 26px;
     color: #FAFAFA;
+    margin-bottom: 3%;
 }
 .core_values {
-    width: 975px;
-    height: 174px;
-    margin-left: 48px;
-    margin-top: 32px;
+    width: 80%;
+    height: 100%;
     border: 8px solid #4D4343;
     box-shadow: 0px 4px 4px 1px #A41C25;
     border-radius: 0px 15px;
 }
 .core_values h3 {
-    width: 231px;
-    height: 38px;
-    margin-left: 45px;
-    margin-top: 25px;
+    width: 25%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
     color: #A41C25;
+    /* border: 2px solid blue; */
+    margin-bottom: 2%;
 }
-.value_lists {
-    margin-left: 2.5%;
-    width: 95%;
+.core_values ul {
+    width: 80%;
+    height: 100%;
+    margin-left: 15%;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
     color: #FAFAFA;
+    /* border: 2px solid khaki; */
 }
-.list1 {
-    padding-left: 10%;
+/* .designs {
+    background-color: black;
+    height: 100%;
 }
 .bar2 {
     width: 288px;
@@ -345,617 +369,675 @@ h1 {
     margin-left: -140px;
     margin-top: -150px;
     background: #FAFAFA;
+    border: 2px solid khaki;
 }
 .dot_box2 {
     background-image: url(/img/dotted_box2.png);
     width: 130px;
     height: 122px;
     margin-left: 1080px;
-    margin-top: -710px;
+    margin-top: -150px;
     color: white;
-}
+    border: 2px solid khaki;
+} */
 
 /* UPPER ROOM  */
 .upper_room_container {
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
     width: 80%;
-    margin-left: 10%;
+    height: 100%;
+
+}
+.google_meet {
+    margin-bottom: 3%;
+    width: 90%;
+    margin-left: 5%;
 }
 .upper_room {
-    width: 160px;
-    height: 160px;
-    margin-left: -7px;
-    margin-top: -10px;
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+    margin-top: -3%;
     background: url(/img/pray_pic.png);
 }
-.upper_room_frame {
-    width: 166px;
-    height: 160px;
-    margin-top: 5px;
+.pic_frame {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
     border: 3px solid #A41C25;
 }
-.upper_room_content {
-    width: 45%;
-}
 .upper_room_content h3 {
-    width: 370px;
-    height: 76px;
-}
-.information {
-    width: 350px;
+    width: 90%;
 }
 .upper_room_info {
     width: 65%;
-    height: 69px;
+    margin: 0% !important;
+}
+.upper_room_info p {
+    width: 100%;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
     color: #4D4343;
+    margin-left: -5% !important;
 }
-.upper_room_info p {
-    width: 228px;
-    height: 69px;
+.upper_room_image {
+    width: 35%;
+    padding: 4.5% 7.5%;
 }
 .upper_room_link {
-    width: 89px;
-    height: 44px;
-    margin-left: 1%;
-    margin-top: 3%;
+    width: 100%;
+    height: 100%;
     background: url(/img/google_meet_image.png);
 }
 .seperate {
     width: 100%;
-    height: 76px;
+    height: 45%;
     border-left: 6px solid #4D4343;
-    padding-left: 37px;
-    margin-top: 45px;
+    padding-left: 5%;
+    margin-top: 18%;
 }
-.welcome {
-    width: 35%;
-}
-.welcome h3 {
-    width: 247px;
-    height: 76px;
+.seperate h3 {
+    width: 100%;
+    height: 100%;
 }
 
 /* PROGRAMS */
-.programs {
-    width: 100%;
-    
-}
 .programs_divider {
-    width: 354px;
-    border-left: 11px solid #4D4343;
-    padding-left:7px;
-    height: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding-left: 3%; */
+    height: 100%;
+    /* border-left: 11px solid #4D4343; */
 }
-.grace {
-    height: 250px;
+.grace,
+.charis,
+.soak {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    /* border: 1px solid #4D4343; */
 }
 .grace p,
 .charis p,
 .soak p {
-    width: 354px;
-    height: 46px;
-    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
     font-size: 18px;
+    text-align: center;
 }
 .grace h3,
 .charis h3,
 .soak h3 {
-    width: 200px;
-    height: 30px;
     font-size: 24px;
-    line-height: 30px;
+    text-align: center;
+    border-left: 11px solid #4D4343;
 }
-.charis {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+.grace h3 {
+    width: 60%;
 }
-.soak {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+.charis h3 {
+    width: 70%;
+}
+.soak h3 {
+    width: 40%;
 }
 
 /* CAROUSEL */
 .carousel_container {
-    width: 100%;
-    height: 651px;
+    /* width: 100%; */
+    /* height: 651px; */
     background: url(/img/carousel_bg.png);
-    margin-top: 50px;
+    background-size: cover;
+    margin-top: 5%;
+    /* border: 1px solid #4D4343; */
 }
 .carousel_container h3 {
-    width: 266px;
-    height: 38px;
+    width: 20%;
+    /* height: 100%; */
     margin-left: 11%;
-    margin-top: 50px;
+    margin-top: 5%;
+    /* border: 1px solid #4D4343; */
 }
 .carousel_main {
     width: 80%;
     margin-left: 10% !important;
-    height: 480px;
+    height: 70vh;
+    /* height: 480px; */
+    /* border: 1px solid #4D4343; */
+    margin-bottom: 5%;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #A41C25;
     border-radius: 50%;
 }
-.carousel-control-prev,
-.carousel-control-next {
-    width: 100px;
+.carousel_prev,
+.carousel_next {
+    width: 7%;
+    height: 70vh;
+    /* border: 3px solid #4D4343; */
 }
 .bar3 {
-    width: 288px;
+    width: 15%;
     height: 21px;
-    margin-left: -83px;
+    margin-left: -1%;
     background: #4D4343;
 }
 .bar4 {
-    width: 150px;
+    width: 15%;
     height: 21px;
-    margin-left: 1180px;
+    margin-left: 85.8%;
     background: #A41C25;
-    margin-top: 15px;
+    margin-top: 5%;
 }
 .dot_box3 {
     background-image: url(/img/dotted_box.png);
-    width: 130px;
-    height: 122px;
-    margin-left: 1130px;
-    margin-top: -110px;
+    width: 10%;
+    height: 18.5vh;
+    margin-left: 85.8%;
+    margin-top: -10%;
+    /* border: 3px solid #4D4343; */
 }
 
 /* LISTEN  */
 .listen_container {
-    margin-top: 50px;
-    height: 238px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    /* height: 238px; */
+    margin-bottom: 10%;
+    /* border: 3px solid #4D4343; */
 }
+/* .listen_content,
+.listen_message {
+    border: 1px solid red;
+
+} */
 .listen {
-    width: 444px;
-    height: 238px;
+    width: 100%;
+    /* width: 444px; */
+    /* height: 238px; */
     background: #FAFAFA;
     box-shadow: 0px 4px 4px #F81A29;
     border-radius: 10px;
 }
-.testimonies_list {
-    height: 238px;
-}
-.listen_message h3 {
-    width: 126px;
-    height: 38px;
-    margin-left: 16px;
-    margin-top: 72px;
-}
-.listen_message p {
-    width: 245px;
-    height: 46px;
-    margin-left: 16px;
-    margin-top: 10px;
-}
 .radio_link {
-    width: 136px;
-    height: 206.6px;
+    width: 31%;
+    /* width: 136px; */
+    /* height: 206.6px; */
     margin-right: 10px;
-    margin-top: 16px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background: #A41C25;
-    border-radius: 7.43169px;
+    border-radius: 7.5px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .earphone {
-    width: 117.42px;
-    height: 117.42px;
-    margin-top: 18px;
+    /* width: 117.42px; */
+    /* height: 117.42px; */
+    margin-top: 10%;
 }
 .speaker {
-    margin-left: 33px;
+    margin-bottom: 10%;
+    /* margin-left: 33px; */
 }
+.listen_message h3 {
+    width: 50%;
+    /* height: 38px; */
+    margin-left: 5%;
+    margin-top: 20%;
+    /* border: 1px solid red; */
+}
+.listen_message p {
+    width: 90%;
+    /* height: 46px; */
+    margin-left: 5%;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+
 .testimonies {
-    height: 238px;
+    /* height: 238px; */
     padding: 0px 15px;
+    /* border: 1px solid blue; */
 }
 .testimonies1 {
     width: 50%;
-    height: 238px;
+    /* height: 238px; */
+    /* border: 1px solid blue; */
 }
-.testimonies1 img {
+/* .testimonies1 img {
     width: 40px;
     height: 32px;
-}
+} */
 .testimonies1 p {
-    width: 245px;
-    height: 126px;
-    margin-left: 45px;
-    margin-top: 22px;
-    font-size: 14.6384px;
+    width: 90%;
+    /* height: 126px; */
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 15px;
     line-height: 18px;
 }
 .testimonies1 .testimony_name {
-    width: 220px;
-    height: 23px;
+    width: 90%;
+    /* height: 23px; */
     font-size: 18px;
 }
 .testimonies .testimony_name2 {
-    width: 220px;
-    height: 23px;
-    margin-top: -30px;
+    width: 90%;
+    /* height: 23px; */
+    /* margin-top: %; */
     font-size: 18px;
+    /* border: 1px solid blue; */
 }
 .test_button_prev,
 .test_button_next {
-    margin-left: -50px;
-    margin-right: -50px;
+    margin-left: -8%;
+    margin-right: -8%;
 }
 
 /* MUSIC & DISCIPLINSHIP JOURNEY */
 .disciplinship_container {
     width: 100%;
-    height: 850px !important;
+    /* height: 850px !important; */
     background: url(/img/carousel_bg.png);
-    margin-bottom: 40px;
+    background-size: cover;
+    margin-bottom: 5%;
 }
 .grace_music {
-    width: 988px;
-    height: 378px;
-    margin-left: 190px;
-    margin-top: 63px;
+    width: 70%;
+    height: 55vh;
+    margin-left: 15%;
+    margin-top: 5%;
     background: url(/img/grace_music.png);
-    border-radius: 8.58333px;
+    border-radius: 10px;
+    /* border: 1px solid blue; */
 }
 .grace_music_label {
-    width: 365px;
-    height: 109px;
-    margin-left: 312px;
-    margin-top: 135px;
+    width: 40%;
+    /* height: 109px; */
+    margin-left: 30%;
+    margin-top: 15%;
+    /* border: 1px solid blue; */
 }
 .grace_music_label h3 {
     width: 100%;
-    height: 38px;
+    /* height: 38px; */
     color: #FAFAFA;
     text-align: center;
+    /* border: 1px solid blue; */
 }
-.grace_music_label img {
-    margin-top: 30px;
-    margin-left: 53px;
+.links {
+    text-align: center;
+    margin-top: 20%;
 }
+.links a {
+    margin: 6%;
+    font-size: 25px;
+    text-decoration: none;
+}
+.spotify {
+    color: green;
+}
+.music {
+    color: white;
+}
+.youtube {
+    color: red;
+}
+.youtube span{
+    color: white;
+}
+/* .grace_music_label img {
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
 .yt_play {
-    margin-left: -75px;
+    margin-left: -6.3% !important;  
 }
 .yt {
-    margin-top: -25px;
-    margin-left: 260px;
+    width: 20%;
+    margin-top: -7%;
+    margin-left: 65%;
     font-weight: 700;
     color: #FAFAFA;
-}
+} */
 .register_container {
     padding: 30px 0px 30px 100px;
 }
 .register_container h3 {
-    width: 451px;
-    height: 38px;
+    width: 75%;
+    /* height: 38px; */
+    /* border: 1px solid red; */
 }
 .register_container p {
-    width: 300px;
+    width: 50%;
+}
+.responsive_iframe {
+    width: 95%;
+    /* height: 95%; */
+    /* padding-top: 56.25%; */
 }
 .register_container iframe {
-    width: 564px;
-    height: 278px;
     border-radius: 10px;
+    width: 100%;
+    height: 40vh;
 }
 .Curriculum h3  {
-    width: 384px;
-    height: 38px;
-    margin-top: 120px;
+    width: 60%;
+    /* height: 38px; */
+    margin-top: 25%;
 }
 .Curriculum p {
-    width: 433px;
-    height: 46px;
-    left: 824px;
-    margin-top: 19px;
+    width: 60%;
+    /* height: 46px; */
+    margin-top: 3%;
+    /* border: 1px solid red; */
 }
 .Curriculum button {
-    width: 172px;
-    height: 43px;
-    margin-left: 231px;
-    margin-top: 10px;
+    width: 20%;
+    /* height: 43px; */
+    padding: 7px 0px;
+    margin-left: 40%;
+    margin-top: 5%;
     background: #A41C25;
     border-radius: 4px;
     border: none;
     color: white;
 }
 .bar5 {
-    width: 170px;
+    width: 15%;
     height: 21px;
-    margin-left: 1170px;
+    margin-left: 84.5%;
     background: #A41C25;
-    margin-top: 50px;
+    /* margin-top: 15px; */
 }
 .bar6 {
-    width: 170px;
+    width: 15%;
     height: 21px;
-    margin-left: -66px;
+    margin-left: -1%;
     background: #4D4343;
-    margin-bottom: 47px;
+    margin-bottom: 5%;
 }
 
 /* PASTORS */
 .pastors_container {
-    width: 100%;
-    height: 720px;
+    /* width: 100%; */
+    /* height: 720px; */
     background-color: #dfb6b9;
-    padding-top: 77px;
-    margin-bottom: 54px;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    /* border: 1px solid blue; */
 }
 .pastors_container h3 {
     width: 100%;
-    height: 38px;
-    margin-left: 0px !important;
+    /* height: 38px; */
+    /* margin-left: 0px !important; */
     text-align: center;
 }
 .pastors {
-    width: 1245.85px;
-    height: 603px;
-    margin-left: 97px;
+    width: 100%;
+    /* height: 603px; */
+    /* margin-left: 97px; */
+    padding-bottom: 3%;
+}
+.pastor_tolu_image{
+    background-image: url(/img/pastorTolu.png);
+    height: 17vh;
+    width: 12vh;
+}
+.pastor_funke_image {
+    height: 17vh;
+    /* height: 20%; */
+    width: 12vh;
+    background-image: url(/img/pastorFunke.png);
 }
 .pastor_tolu p,
 .pastor_funke p {
-    width: 450px;
+    width: 100%;
     font-size: 16px;
     line-height: 20px;
+    /* margin-top: 20%; */
 }
-.pastor_tolu span
-.pastor_funke span {
-    width: 179px;
-    height: 23px;
+.pastor_tolu span,
+.pastor_funke span  {
+    /* width: 100%; */
+    /* height: 23px; */
     font-weight: 900;
     font-size: 18px;
     line-height: 23px;
     color: #4D4343;
-}
-.pastor_funke img {
-    margin-left: 98px !important;
+    /* border: 1px solid blue; */
 }
 .bar7 {
-    width: 170px;
+    width: 15%;
     height: 21px;
-    margin-left: 1170px;
+    margin-left: 84.5%;
     background: #A41C25;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 
 /* WEEKLY NUGGETS */
-.spiritual_hunger {
-    height: 565px;
+.hun {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
-.spiritual_hunger1,
-.spiritual_hunger2,
-.spiritual_hunger3 {
-    margin-top: -123px;
-    margin-left: -250px;
-    width: 292px;
-    height: 158px;
-    border-bottom: 22px solid #A41C25;
+.hun_row {
+    margin-bottom: 10%;
 }
-.spiritual_hunger1 {
-    background: url(/img/spiritual_hunger1.png);
+.images_a img {
+    border-bottom: 11px solid #A41C25;
+    margin-top: -5%;
+    margin-left: -2%;
 }
-.spiritual_hunger2 {
-    background: url(/img/spiritual_hunger2.png);
-}
-.spiritual_hunger3 {
-    background: url(/img/spiritual_hunger3.png);
-}
-.spiritual_hunger1_verse {
-    width: 374px;
-    height: 102px;
-    margin-top: 28px;
-    margin-left: 240px;
+.spiritual_hunger1_verse_a {
+    width: 100%;
+    height: 90%;
     background: #FAFAFA;
     box-shadow: 0px 4px 4px rgba(164, 28, 37, 0.44);
     border-radius: 0px 20px 20px 0px;
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
 }
-.spiritual_hunger1_verse h3 {
-    width: 287px;
-    height: 46px;
-    margin-left: 75px;
+.spiritual_hunger_content {
+    width: 55%;
+    /* border: 1px solid red; */
+}
+.spiritual_hunger_content h3 {
+    width: 100%;
     font-size: 18px;
     line-height: 23px;
+    padding: 5% 3%;
 }
-.spiritual_hunger1_verse p {
-    width: 260px;
-    height: 23px;
-    margin-left: 75px;
+.spiritual_hunger_content p {
+    width: 100%;
+    padding: 0% 3%;
 }
+
 .key_nuggets {
-    width: 515px;
-    height: 562px;
-    margin-left: 95px;
+    width: 80%;
     box-shadow: 0px 4px 4px rgba(164, 28, 37, 0.44);
     background: #FEF8F8;
+    padding-bottom: 5%;
+    margin-left: 10%;
 }
 .key_nuggets_header {
-    width: 515px;
-    height: 82px;
-    padding-top: 22px;
+    width: 100%;
+    /* height: 13%; */
+    padding: 1% 0%;
     background: #A41C25;
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .key_nuggets_header h3 {
-    width: 395px;
-    height: 38px;
-    margin-left: 60px;
+    width: 100%;
     color: #FAFAFA;
+    text-align: center;
 }
 .spiritual_hunger_header {
     width: 100%;
-    height: 38px;
+    /* height: 38px; */
     font-weight: 700;
     font-size: 30px;
-    line-height: 38px;
+    /* line-height: 38px; */
     color: #A41C25;
     text-align: center;
+    margin: 3% 0%;
 }
 .key_nuggets ul li {
-    width: 456px;
+    width: 90%;
+    margin-left: 5%;
+    /* width: 95%; */
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
     color: #4D4343;
-    margin-bottom: 10px;
+    margin-bottom: 2.5%;
+    /* border: 1px solid black; */
 }
 .subscribe {
-    width: 610px;
-    height: 49px;
-    margin-left: 398px;
-    margin-top: 76px;
-    margin-bottom: 46px;
+    width: 40%;
+    /* height: 49px; */
+    /* margin-left: 30%; */
+    margin: 5% 30%;
+    /* margin-bottom: 46px; */
     background: #A41C25;
     border-radius: 15px;
-    padding-top: 13px;
+    padding: 1% 1% 0% 3%;
+  
 }
 .subscribe p {
-    width: 237px;
-    height: 23px;
-    margin-left: 49px;
+    width: 60%;
     color: #FAFAFA;
 }
 .bi-send-fill {
-    font-size: 18px;
-    margin-left: 13px !important;
+    font-size: 100%;
+    margin-left: 30% !important;
     color: #FAFAFA;
 }
 
 /* FOOTER  */
 .dot_box4 {
     background-image: url(/img/dotted_box.png);
-    width: 130px;
-    height: 122px;
-    margin-left: 1080px;
-    margin-top: -60px;
+    width: 11.8%;
+    height: 18vh;
+    /* margin-left: 100%; */
+    margin-left: 85.8%;
+    margin-top: -5%;
 }
 .foot_container {
-    width: 100%;
-    height: 715px;
     background: #f1e4e5;
+    /* border: 1px solid red; */
+    padding: 0% 10%;
 }
 .foot_info {
-    height: 571px;
-    margin-top: 29px;
-    width: 54%;
-    margin-left: 5%;
+    margin-top: 3%;
 }
-.foot_info h3 {
-    width: 287px;
-    height: 38px;
+.salvation h3 {
+    width: 50%;
 }
-.foot_info p {
-    width: 456px;
+.salvation p,
+.benediction p {
+    width: 100%;
 }
 .benediction h3 {
-    width: 169px;
-}
-.benediction p {
-    width: 369px;
+    width: 50%;
 }
 .benediction span a {
     color: #A41C25;
     margin-right: 10px;
 }
-.location h3 {
-    width: 124px;
-    height: 38px;
+.location_content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
-.location p {
-    width: 55%;
+.location h3 {
+    width: 50%;
+}
+.address {
+    width: 60%;
+    text-align: end;
 }
 .number {
-    width: 170px !important;
+    width: 70%;
+    text-align: end;
 }
+.mail {
+    width: 100%;
+    text-align: end;
+}
+
 .foot_form {
-    height: 571px;
-    margin-top: 29px;
-    width: 36%;
+    margin-top: 3%;
 }
 .form_container {
     box-sizing: border-box;
-    width: 448px;
-    height: 571px;
-    border: 1.50769px solid #A41C25;
-    border-radius: 4.97539px;
+    width: 100%;
+    border: 1.5px solid #A41C25;
+    border-radius: 5px;
 }
 .foot_form h3 {
-    width: 206px;
-    height: 76px;
-    margin-left: 35px;
-    margin-top: 32px;
+    width: 45%;
+    margin-left: 8%;
+    margin-top: 5%;
 }
 .foot_form p {
-    width: 206px;
-    height: 23px;
-    margin-left: 35px;
+    width:45%;
+    margin-left: 8%;
 }
 .foot_container form {
-    margin-left: 35px;
-    width: 378px;
+    margin-left: 8%;
+    width: 84%;
 }
 .foot_container form input {
     width: 100%;
     height: 43px;
-    margin-bottom: 15px;
-    border: 1.50769px solid #A41C25;
-    border-radius: 4.97539px;
+    margin-bottom: 4%;
+    border: 1.5px solid #A41C25;
+    border-radius: 5px;
     background: #f1e4e5;
-    padding-left: 20px;
+    padding: 5%;
     outline: #A41C25;
 }
 .foot_container ::placeholder {
-    /* padding-left: 200px !important; */
     color: #4D4343;
 }
 .foot_container form textarea {
     width: 100%;
     height: 141px;
-    border: 1.50769px solid #A41C25;
-    border-radius: 4.97539px;
-    margin-bottom: 20px;
+    border: 1.59px solid #A41C25;
+    border-radius: 5px;
+    margin-bottom: 5%;
     background: #f1e4e5;
-    padding-left: 20px;
+    padding: 5%;
     outline: #A41C25;
-    padding-top: 20px;
 }
 .foot_container button {
     width: 100%;
     padding: 10px 30px;
-    width: 378px;
-    height: 43px;
     background: #A41C25;
     border-radius: 4px;
     border: none;
     color: white;
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
 }
 .copyright {
     text-align: center;
-    width: 100%;
-    margin-top: 66px;
-    margin-bottom: 24px;
+    margin-top: 5%;
 }
-.copyright p {
-    width: 100%;
-    height: 23px;
-}
-
 
 
 

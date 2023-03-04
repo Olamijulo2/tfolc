@@ -1,0 +1,661 @@
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: green;
+        width: 100%;
+    }
+    
+    .banner {
+        height: 562px;
+        /* background: url(/img/banner_bg.png); */
+        /* background-size: cover; */
+    }
+    .header_nav a {
+        font-size: 12px;
+        width: 100%;
+        /* line-height: 0px; */
+        /* margin-top: 10px; */
+        margin-left: 1% !important;
+        /* border: 1px solid blue; */
+    }
+    /* .header_nav a:hover {
+        color: #A41C25;
+    } */
+    /* .bi-dot {
+        position: relative;
+        display: inline !important;
+        font-size: 35px;
+        text-align: center;
+        top: 9px;
+        color: #A41C25;
+    } */
+    .header_nav {
+        padding: 1% 5%;
+    }
+    .logo {
+        width: 157.91px;
+        height: 59px;
+        background: url(/img/Grace-logo-WHITE-png\ mobile.png);
+    }
+    /* .navbar-toggler {
+        margin-top: 15px !important; 
+        font-size: 7px;
+        border: 1px solid #A41C25;
+        background-color: #A41C25;
+        outline: none;
+    } */
+
+    /* CONTENT  */
+    /* .banner_content {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 30%;
+    } */
+    .banner_content h1 {
+        font-size: 25px;
+        line-height: 39px;
+        width: 50%;
+        margin-left: 5%;
+    }
+    .brief {
+        font-size: 18px;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .verse {
+        width: 20%;
+        /* float: right; */
+        height: 30px;
+        margin-left: 5%;
+    }
+    .verse p {
+        width: 100%;
+        margin-top: 0%;
+        font-size: 15px;
+    }
+
+    /* SERMON */
+    /* .bar1 {
+        width: 15%;
+        margin-top: 5%;
+    } */
+    .dot_box1 {
+        background-image: url(/img/dotted_box_mobile.png);
+        /* width: 22%; */
+        height: 8.5vh;
+        /* margin-left: 75%; */
+        /* margin-top: 0%; */
+        /* margin-bottom: 5%; */
+    }
+
+    /* PROMISES */
+    /* .promise_right {
+        border-left: none;
+    } */
+    .promise1 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 15%;
+    }
+    .promises h3 {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .promises p {
+        width: 70%;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }   
+    .promise2 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    /* .promise1::after {
+        content: '';
+        display: block;
+        margin-left: 30% !important;
+        margin-right: 30% !important;
+        border: 2px solid white;
+        background-color: white;
+        width: 40%;
+    } */
+    .divider {
+        /* display: none; */
+        margin-left: 47%;
+        margin-top: -130px;
+        margin-bottom: 80px;
+
+    }
+
+    /* MISSION STATEMENT */
+    .statement_header {
+        height: 100%;
+        padding-top: 3%;
+        padding-bottom: 6%;
+    }
+    .statement_header  h2 {
+        font-size: 20px;
+    }
+    .statement_header h2::after{
+        margin-top: 2%;
+        border: 2px solid #4D4343;
+    }
+    .mission,
+    .vision,
+    .ministry {
+        width: 30%;
+        border: 4px solid #4D4343;
+        box-shadow: 0px 2px 2px 1px #A41C25;
+        border-radius: 0px 18px;
+        margin: 3%;
+    }
+    .mission h3,
+    .vision h3,
+    .ministry h3 {
+        margin-top: 5%;
+        font-size: 18px;
+    }
+    .mission p,
+    .vision p,
+    .ministry p {
+        margin-top: 5%;
+        font-size: 15px;
+    }   
+    .beliefs {
+        border: 4px solid #4D4343;
+        /* filter: drop-shadow(0px 4px 4px #A41C25); */
+        box-shadow: 0px 2px 2px 1px #A41C25;
+        border-radius: 0px 10px;
+    }
+    .beliefs h3 {
+        width: 50%;
+        margin-top: 5%;
+        font-size: 18px;
+    }
+    .beliefs ul {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    .value_container {
+        padding-bottom: 10% !important;
+    }
+    .core_values {
+        width: 80%;
+        border: 4px solid #4D4343;
+        box-shadow: 0px 2px 2px 1px #A41C25;
+        border-radius: 0px 10px;
+    }
+    .core_values h3 {
+        width: 80%;
+        margin-top: 5%;
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+    .core_values ul {
+        width: 100%;
+        margin-left: 15%;
+        font-size: 15px;
+        padding-top: 5%;
+    }
+    .bar2 {
+        width: 158px;
+        
+    }
+    .dot_box2 {
+        background-image: none;
+        margin-left: 0px;
+    }
+    
+    /* UPPER ROOM  */
+    .upper_room_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .google_meet {
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: 0%;
+        border: 3px solid #A41C25;
+    }
+    .upper_room {
+        width: 100%;
+        height: 100%;
+        background: url(/img/pray_pic_mobile.png);
+    }
+    .pic_frame {
+        width: 11vh;
+        height: 10vh;
+        border: 3px solid #A41C25;
+    }
+    /* .information {
+        border: 3px solid #A41C25;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    } */
+    .upper_room_content h3 {
+        width: 80%;
+        font-size: 18px;
+        line-height: 23px;
+        /* text-align: center; */
+        margin-left: 10%;
+    }
+    .upper_room_info p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 23px;
+        margin-left: 0% !important;
+        /* text-align: center; */
+        /* border: 3px solid #A41C25; */
+    }
+    .upper_room_image {
+        height: 100%;
+        width: 30%;
+        padding: 0;
+    }
+    .upper_room_link {
+        width: 8.2vh;
+        height: 4vh;
+        background: url(/img/google_meet_image_mobile.png);
+    }
+    .seperate {
+        width: 80%;
+        height: 50%;
+        /* border-left: none; */
+        border-left: 6px solid #4D4343;
+        padding-left: 0%;
+        padding-top: 5%;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+    .seperate h3 {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+    }
+    
+    /* PROGRAMS */
+    .grace p,
+    .charis p,
+    .soak p {
+        font-size: 18px;
+    }
+    .grace h3,
+    .charis h3,
+    .soak h3 {
+        font-size: 18px;
+        border-left: 6px solid #4D4343;
+        margin-bottom: 5%;
+        padding-left: 1%;
+    }
+    .grace h3 {
+        width: 65%;
+    }
+    .charis h3 {
+        width: 65%;
+        margin-top: 9%;
+    }
+    .soak h3 {
+        width: 15%;
+        margin-top: 0%;
+    }
+    
+
+    /* CAROUSEL */
+    .carousel_container {
+        background: url(/img/carousel_bg.png);
+    }
+    .carousel_container h3 {
+        width: 100%;
+        margin-left: 3%;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    .carousel_main {
+        width: 100%;
+        margin-left: 0% !important;
+        height: 100%;
+        padding-top: 4%;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+        /* margin-top: -7%; */
+        /* margin: -7% 5% -5% 0% !important; */
+    }
+    /* .carousel-control-prev {
+        margin-left: -2% !important;
+    }
+    .carousel-control-next {
+        margin-left: 52% !important;
+    } */
+    .dot_box3 {
+        display: none;
+    }
+    /* .carousel_large {
+        display: none;
+    }
+    .carousel_mobile {
+        display: block !important;
+    } */
+    /* .carousel_mobile img {
+        margin-bottom: 4%;
+    } */
+    
+    /* LISTEN  */
+    .listen {
+        /* border: 1px solid red; */
+        margin-top: 20%;
+    }
+    .listen_message {
+        /* border: 1px solid red; */
+        width: 65%;
+
+    }
+    .radio_link {
+        width: 29.8%;
+    }
+    .earphone {
+        margin-top: 50%;
+    }
+    .listen_message h3 {
+        margin-top: 5%;
+        font-size: 18px;
+    }
+    .listen_message p {
+        font-size: 18px;
+    }
+    .testimonies {
+        padding: 0px 0px;
+        margin-top: 5%;
+    }
+    .testimonies1 p {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 15px;
+    }
+    .testimonies1 .testimony_name {
+        font-size: 13px;
+    }
+    .testimonies .testimony_name2 {
+        font-size: 13px;
+    }
+   
+
+    /* MUSIC & DISCIPLINSHIP JOURNEY */
+    .grace_music {
+        width: 95%;
+        height: 100% !important;
+        margin-left: 2.5%;
+        background: url(/img/grace_music.png);
+        background-size: cover;
+    }
+    .grace_music_label {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .grace_music_label h3 {
+        width: 100%;
+        font-size: 25px;
+    }
+    /* .links {
+        border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+
+    } */
+    .links {
+        /* text-align: center; */
+        margin-top: 20%;
+    }
+    .links a {
+        margin: 3%;
+        font-size: 20px;
+        /* text-decoration: none; */
+    }
+    .register_container {
+        padding: 15px 0px 15px 0px;
+    }
+    .register_container h3 {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .register_container p {
+        width: 50%;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 25%;
+
+    }
+    .responsive_iframe {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .register_container iframe {
+        height: 100%;
+    }
+    .Curriculum h3  {
+        width: 100%;
+        margin-top: 5%;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .Curriculum p {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .Curriculum button {
+        width: 80%;
+        padding: 7px 0px;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .bar5 {
+        width: 15%;
+        height: 21px;
+        margin-left: 84.5%;
+        background: #A41C25;
+    }
+    .bar6 {
+        width: 15%;
+        height: 21px;
+        margin-left: -1%;
+        background: #4D4343;
+        margin-bottom: 5%;
+    }
+
+    /* PASTORS */
+    .pastors_container h3 {
+        font-size: 18px;
+    }
+    /* .pastor_funke {
+        margin-top: 10%;
+    } */
+    .pastor_tolu_image{
+        background-image: url(/img/pastorTolu.png);
+        height: 12vh;
+        width: 9vh;
+    }
+    .pastor_funke_image {
+        height: 12vh;
+        width: 9vh;
+        background-image: url(/img/pastorFunke.png);
+        /* float: right; */
+    }
+    /* .pastor_funke_image_large {
+        display: none;
+    } */
+    /* .pastor_funke_image_mobile {
+        display: block !important;
+    } */
+    /* .pt_dot {
+        float: right;
+    } */
+    .pastor_tolu p,
+    .pastor_funke p {
+        width: 95%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 11%;
+    }
+    .pastor_tolu span,
+    .pastor_funke span  {
+        font-size: 15px;
+        margin-left: 11%;
+    }
+    .bar7 {
+        width: 15%;
+        height: 21px;
+        margin-left: 84.5%;
+        background: #A41C25;
+        margin-bottom: 5%;
+    }
+
+    /* WEEKLY NUGGETS */
+    .hun_cont {
+        margin-bottom: 15%;
+    }
+    .hun {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .images_a img {
+        border-bottom: 5px solid #A41C25;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .spiritual_hunger1_verse_a {
+        height: 100%;
+        border-radius: 0px 0px 20px 20px;
+        flex-direction: column;
+    }
+    .spiritual_hunger_content {
+        width: 100%;
+    }
+    .spiritual_hunger_content h3 {
+        font-size: 18px;
+        line-height: 23px;
+        padding: 3% 3%;
+        text-align: center;
+    }
+    .spiritual_hunger_content p {
+        padding: 0% 3%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .key_nuggets {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .key_nuggets_header {
+        padding: 1% 0%;
+    }
+    .key_nuggets_header h3 {
+        font-size: 20px;
+    }
+    .spiritual_hunger_header {
+        width: 100%;
+        font-size: 20px;
+    }
+    .key_nuggets ul li {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .subscribe {
+        width: 50%;
+        margin: 5% 25%;
+        padding: 2% 1% 0% 1%;
+    }
+    .subscribe p {
+        width: 100%;
+        font-size: 18px;
+    }
+  
+
+    /* FOOTER  */
+    .dot_box4 {
+        display: none;
+    }
+    .foot_container {
+        background: #f1e4e5;
+        padding: 1% 10%;
+    }
+    .salvation h3 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .salvation p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .benediction p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .benediction h3 {
+        width: 100%;
+        font-size: 20px;
+        /* text-align: end; */
+    }
+   
+    .location h3 {
+        font-size: 20px;
+        /* margin-top: 15%; */
+    }
+    .address {
+        width: 100%;
+        text-align: end;
+        font-size: 15px;
+    }
+    .number {
+        width: 100%;
+        text-align: end;
+        font-size: 15px;
+    }
+    .mail {
+        width: 100%;
+        text-align: end;
+        font-size: 15px;
+    }
+    
+    
+    .foot_form h3 {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .foot_form p {
+        width:100%;
+        margin-left: 0%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .foot_container ::placeholder {
+        font-size: 15px;
+    }
+    .copyright {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+}

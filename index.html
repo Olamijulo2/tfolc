@@ -21,7 +21,7 @@
         <section>
             <div class="container-fluid banner">
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="navbar navbar-expand-md">
                         <div class="container-fluid ">
                             <div class="row header_cont">
                                 <div class="col-6 one">
@@ -31,7 +31,7 @@
                                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                                         <ul class="navbar-nav header_nav">
                                             <li class="nav-item">
-                                                <a href="#" class="ms-5">
+                                                <a href="#about" class="ms-5">
                                                     <span><i class="bi bi-dot" style="display: none;"></i></span>About Us
                                                 </a>
                                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
@@ -39,22 +39,22 @@
                                                 </svg> -->
                                             </li>
                                             <li class="nav-item">
-                                                <a href="">
+                                                <a href="#sermon">
                                                     <span><i class="bi bi-dot" style="display: none;"></i></span>Sermons
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="">
+                                                <a href="#testimonies">
                                                     <span><i class="bi bi-dot" style="display: none;"></i></span>Testimonies
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="">
+                                                <a href="#give">
                                                     <span><i class="bi bi-dot" style="display: none;"></i></span>Give
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="">
+                                                <a href="#contact">
                                                     <span><i class="bi bi-dot" style="display: none;"></i></span>Contact Us
                                                 </a>
                                             </li>
@@ -90,14 +90,18 @@
     <main>
         <section>
         <!-- sermon  -->
-            <div class="container-fluid">
+            <div class="container-fluid" id="sermon">
                 <div class="row">
                     <div class="col-12 col-md-3">
                         <div class="bar1"></div>
                     </div>
                     <div class="col-12 col-md-6 click">
                         <div class="live_sermon">
-                            <div class="play" style="cursor: pointer;" onclick="window.open('https://www.youtube.com/@TFOLCGraceFamily', '_blank');"></div>
+                            <img src="/img/live_sermon_bg.png" alt="" style="width: 100%;">
+                            <a href="">
+                                <img class="play" src="/img/play_live.png" alt="" style="width: 50%;">
+                            </a>
+                            <!-- <div class="play" style="cursor: pointer;" onclick="window.open('https://www.youtube.com/@TFOLCGraceFamily', '_blank');"></div> -->
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
@@ -117,6 +121,7 @@
                             <p>If He spoke it, He will bring it to pass.</p>
                         </div>
                     </div>
+                    
                     <div class="col-12 col-md-6 promise_right">
                         <div class="promise2">
                             <h3>Promise Of The Week</h3>
@@ -135,110 +140,118 @@
 
         <section>
         <!-- mission statement -->
-            <div class="container-fluid statement_container">
-                <div class="row">
-                    <h2>We Enjoy God's Goodness</h2>
-                    <div class="container statements">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <div class="mission">
-                                    <h3>Mission</h3>
-                                    <p>
-                                        The Fountain of Life Church is a ministry with a mission to 
-                                        provide a home for the lost; guide those in search of direction, purpose and calling; and raise a people who are committed to 
-                                        making a difference.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="vision">
-                                    <h3>Vision</h3>
-                                    <p>
-                                        The Fountain of Life Church exists to teach men and women the art of 
-                                        building successful relationships and the principles of leadership so 
-                                        they can be all they were created to be.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="ministry">
-                                    <h3>Ministry</h3>
-                                    <p>
-                                        With the help of the Holy Spirit, we strive to NURTURE and DEVELOP all 
-                                        to the full potential of their callings, thereby raising them to be the 
-                                        leaders they are called to be in their different places of life 
-                                        assignments.
-                                    </p>
-                                </div>
+            <div>
+                <div class="container-fluid statement_header" id="about">
+                    <div class="">
+                        <div class="col-12 col-md-12">
+                            <h2>We Enjoy God's Goodness</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid msm_container">
+                    <div class="row church_statement">
+                        <div class="col-12 col-md-4 mission">
+                            <div class="">
+                                <h3>Mission</h3>
+                                <p>
+                                    The Fountain of Life Church is a ministry with a mission to 
+                                    provide a home for the lost; guide those in search of direction, purpose and calling; and raise a people who are committed to 
+                                    making a difference.
+                                </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="beliefs">
-                                    <h3>Our Beliefs</h3>
-                                    <ul>
-                                        <li>We believe in one God - Father, Son and Holy Spirit, Creator of all things.</li>
-                                        <li>
-                                            We believe that the Lord Jesus Christ, the only begotten Son of God, was 
-                                            conceived of the Holy Spirit, born of the Virgin Mary, and was crucified 
-                                            for the sins of mankind; He died, was buried and rose from the dead on the 
-                                            third day. He ascended into heaven and is now seated at the right hand of 
-                                            God the Father and is true God and true man.
-                                        </li>
-                                        <li>
-                                            We believe in the Bible in its entirety to be the inspired Word of God 
-                                            and the infallible rule of faith and conduct.
-                                        </li>
-                                        <li>
-                                            We believe in the resurrection of the dead, the eternal joy of the saved, 
-                                            and the eternal punishment of the lost. 
-                                        </li>
-                                        <li>
-                                            We believe in sanctification through the Word of God and by the Holy Spirit, 
-                                            and we believe in personal holiness, purity of heart and life.
-                                        </li>
-                                        <li>
-                                            We believe in water baptism, in the baptism in the Holy Spirit as distinct 
-                                            from the New Birth, and evidenced by speaking with tongues as the Spirit of 
-                                            God gives utterance (Acts 2:4).
-                                        </li>
-                                        <li>
-                                            We believe in the gifts of the Spirit, and the evidence of the fruit of the Spirit. 
-                                            We believe all these are available to believers.
-                                        </li>
-                                        <li>
-                                            We believe in the Christian's hope - the soon coming, personal return of the Lord 
-                                            Jesus Christ.
-                                        </li>
-                                    </ul>
-                                </div>
+                        <div class="col-12 col-md-4 vision">
+                            <div class="">
+                                <h3>Vision</h3>
+                                <p>
+                                    The Fountain of Life Church exists to teach men and women the art of 
+                                    building successful relationships and the principles of leadership so 
+                                    they can be all they were created to be.
+                                </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="core_values">
-                                    <h3>Our Core Values</h3>
-                                    <div class="container">
-                                        <div class="row value_lists">
-                                            <div class="col-4 listA">
-                                                <ul>
-                                                    <li>Integrity</li>
-                                                    <li>Commitment</li>
-                                                    <li>Hard Work</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-4 list1">
-                                                <ul>
-                                                    <li>Compassion</li>
-                                                    <li>Excellence</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-4 list1">
-                                                <ul>
-                                                    <li>Team Work</li>
-                                                    <li>Efficiency</li>
-                                                </ul>
-                                            </div>
+                        <div class="col-12 col-md-4 ministry">
+                            <div class="">
+                                <h3>Ministry</h3>
+                                <p>
+                                    With the help of the Holy Spirit, we strive to NURTURE and DEVELOP all 
+                                    to the full potential of their callings, thereby raising them to be the 
+                                    leaders they are called to be in their different places of life 
+                                    assignments.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid beliefs_container">
+                    <div class="row belief_statement">
+                        <div class="col-12 beliefs">
+                            <div class="">
+                                <h3>Our Beliefs</h3>
+                                <ul>
+                                    <li>We believe in one God - Father, Son and Holy Spirit, Creator of all things.</li>
+                                    <li>
+                                        We believe that the Lord Jesus Christ, the only begotten Son of God, was 
+                                        conceived of the Holy Spirit, born of the Virgin Mary, and was crucified 
+                                        for the sins of mankind; He died, was buried and rose from the dead on the 
+                                        third day. He ascended into heaven and is now seated at the right hand of 
+                                        God the Father and is true God and true man.
+                                    </li>
+                                    <li>
+                                        We believe in the Bible in its entirety to be the inspired Word of God 
+                                        and the infallible rule of faith and conduct.
+                                    </li>
+                                    <li>
+                                        We believe in the resurrection of the dead, the eternal joy of the saved, 
+                                        and the eternal punishment of the lost. 
+                                    </li>
+                                    <li>
+                                        We believe in sanctification through the Word of God and by the Holy Spirit, 
+                                        and we believe in personal holiness, purity of heart and life.
+                                    </li>
+                                    <li>
+                                        We believe in water baptism, in the baptism in the Holy Spirit as distinct 
+                                        from the New Birth, and evidenced by speaking with tongues as the Spirit of 
+                                        God gives utterance (Acts 2:4).
+                                    </li>
+                                    <li>
+                                        We believe in the gifts of the Spirit, and the evidence of the fruit of the Spirit. 
+                                        We believe all these are available to believers.
+                                    </li>
+                                    <li>
+                                        We believe in the Christian's hope - the soon coming, personal return of the Lord 
+                                        Jesus Christ.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid value_container">
+                    <div class="row value_statement">
+                        <div class="col-12 col-md-12 core_values">
+                            <div class="">
+                                <h3>Our Core Values</h3>
+                                <div class="container">
+                                    <div class="row value_lists">
+                                        <div class="col-12 col-md-4">
+                                            <ul>
+                                                <li>Integrity</li>
+                                                <li>Commitment</li>
+                                                <li>Hard Work</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <ul>
+                                                <li>Compassion</li>
+                                                <li>Excellence</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <ul>
+                                                <li>Team Work</li>
+                                                <li>Efficiency</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -246,19 +259,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="bar2"></div>
-                <div class="dot_box2"></div>
+
+                <!-- <div class="designs">
+                    <div class="bar2"></div>
+                    <div class="dot_box2"></div>
+                </div> -->
             </div>
+
         </section>
 
         <section>
         <!-- upper room  -->
-            <div class="container">
-                <div class="row upper_room_container">
-                    <div class="col-6 col-md-2 upper_room_frame">
-                        <div class="upper_room"></div>
+            <div class="container-fluid upper_room_container" id="give">
+                <div class="row google_meet">
+                    <div class="col-12 col-md-2 upper_room_frame">
+                        <div class="pic_frame">
+                            <div class="upper_room"></div>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-6 upper_room_content">
+                    <div class="col-12 col-md-6 upper_room_content">
                         <h3>Pray With Us This Saturday At the Upper Room</h3>
                         <div class="container">
                             <div class="row information">
@@ -268,7 +287,9 @@
                                         (Google Meet)
                                     </p>
                                 </div>
-                                <div class="col-6 col-md-6 upper_room_link" style="cursor: pointer;" onclick="window.open('https://meet.google.com', '_blank');"></div>
+                                <div class="upper_room_image">
+                                    <div class="col-6 col-md-6 upper_room_link" style="cursor: pointer;" onclick="window.open('https://meet.google.com', '_blank');"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -286,7 +307,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-md-4 grace">
-                                <img src="/img/grace_service.png" alt="">
+                                <img src="/img/grace_service.png" alt="" style="width: 100%;">
                                 <p>
                                     The best place to start connecting with God is at 
                                     our grace services every Sunday.
@@ -296,7 +317,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-4 charis">
-                                <img src="/img/charis_hangout.png" alt="">
+                                <img src="/img/charis_hangout.png" alt="" style="width: 100%;">
                                 <p>
                                     We dig deep, study the character and digest the 
                                     WORD every Wednesday.
@@ -306,13 +327,13 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-4 soak">
-                                <img src="/img/soak.png" alt="">
+                                <img src="/img/soak.png" alt="" style="width: 100%;">
                                 <p>
                                     Experience God presence through worship and prayer 
                                     every last Friday monthly.
                                 </p>
                                 <div class="programs_divider">
-                                    <h3>SOAK </h3>
+                                    <h3>SOAK</h3>
                                 </div>
                             </div>
                         </div>
@@ -335,51 +356,25 @@
                                         <div class="row carousel_large">
                                             <div class="col-12 col-md-4">
                                                 <div class="row">
-                                                    <div class="col-12"><img src="/img/picture1.png" alt=""></div>
+                                                    <div class="col-12"><img src="/img/picture1.png" alt="" style="width: 100%;"></div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-12 mt-3"><img src="/img/picture2.png" alt=""></div>
+                                                    <div class="col-12 mt-3"><img src="/img/picture2.png" alt="" style="width: 100%;"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-md-4"><img src="/img/picture3.png" alt=""></div>
+                                            <div class="col-12 col-md-4"><img src="/img/picture3.png" alt="" style="width: 100%;"></div>
                                             <div class="col-12 col-md-4">
                                                 <div class="row">
-                                                    <div class="col-12"><img src="/img/picture4.png" alt=""></div>
+                                                    <div class="col-12"><img src="/img/picture4.png" alt="" style="width: 100%;"></div>
                                                 </div>
                                                 <div class="row mt-3">
-                                                    <div class="col-12"><img src="/img/picture5.png" alt=""></div>
+                                                    <div class="col-12"><img src="/img/picture5.png" alt="" style="width: 100%;"></div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row carousel_mobile" style="display: none;">
-                                            <img src="/img/picture1.png" alt="">
-                                            <img src="/img/picture2.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item carousel_main">
-                                    <div class="container">
-                                        <!-- <div class="row carousel_large">
-                                            <div class="col-12 col-md-4">
-                                                <div class="row">
-                                                    <div class="col-12"><img src="/img/picture1.png" alt=""></div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12 mt-3"><img src="/img/picture2.png" alt=""></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4"><img src="/img/picture3.png" alt=""></div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="row">
-                                                    <div class="col-12"><img src="/img/picture4.png" alt=""></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col-12"><img src="/img/picture5.png" alt=""></div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        <div class="row carousel_mobile" style="display: none;">
-                                            <img src="/img/picture3.png" alt="">
+                                            <img src="/img/picture1.png" alt="" style="width: 100%;">
+                                            <img src="/img/picture2.png" alt="" style="width: 100%;">
                                         </div>
                                     </div>
                                 </div>
@@ -405,17 +400,43 @@
                                             </div>
                                         </div> -->
                                         <div class="row carousel_mobile" style="display: none;">
-                                            <img src="/img/picture4.png" alt="">
-                                            <img src="/img/picture5.png" alt="">
+                                            <img src="/img/picture3.png" alt="" style="width: 100%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel_main">
+                                    <div class="container">
+                                        <!-- <div class="row carousel_large">
+                                            <div class="col-12 col-md-4">
+                                                <div class="row">
+                                                    <div class="col-12"><img src="/img/picture1.png" alt=""></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 mt-3"><img src="/img/picture2.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4"><img src="/img/picture3.png" alt=""></div>
+                                            <div class="col-12 col-md-4">
+                                                <div class="row">
+                                                    <div class="col-12"><img src="/img/picture4.png" alt=""></div>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-12"><img src="/img/picture5.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="row carousel_mobile" style="display: none;">
+                                            <img src="/img/picture4.png" alt="" style="width: 100%;">
+                                            <img src="/img/picture5.png" alt="" style="width: 100%;">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <button class="carousel-control-prev carousel_prev ms-5" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <button class="carousel-control-next carousel_next me-5" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -423,7 +444,7 @@
                     </div>
                 </div>
                 <div class="dot_box3"></div>
-                <div class="bar3"></div>
+                <div class="bar3" id="testimonies"></div>
             </div>
         </section>
 
@@ -435,16 +456,16 @@
                         <div class="listen">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-8 listen_message">
+                                    <div class="col-8 col-md-8 listen_message">
                                         <h3>Sermons</h3>
                                         <p>
                                             Listen to all inspiring messages by Pastor Tolulope Ige
                                         </p>
                                     </div>
-                                    <div class="col-4 radio_link" style="cursor: pointer;" onclick="window.open('https://open.spotify.com/show/6sfYNP1DTEnTmnnKiz5XKk', '_blank');">
+                                    <div class="col-4 col-md-4 radio_link" style="cursor: pointer;" onclick="window.open('https://open.spotify.com/show/6sfYNP1DTEnTmnnKiz5XKk', '_blank');">
                                     <!-- <div class="col-4 radio_link" style="cursor: pointer;" onclick="window.location='https://open.spotify.com/show/6sfYNP1DTEnTmnnKiz5XKk', '_blank';"> -->
-                                        <img src="/img/earphone.png" alt="" class="earphone">
-                                        <img src="/img/earphone_speaker.png" alt="" class="speaker">
+                                        <img src="/img/earphone.png" alt="" class="earphone" style="width: 100%;">
+                                        <img src="/img/earphone_speaker.png" alt="" class="speaker" style="width: 50%;">
                                     </div>
                                 </div>
                             </div>
@@ -457,7 +478,7 @@
                                     <div class="container">
                                         <div class="row testimonies_list">
                                             <div class="col-6 testimonies1">
-                                                <img src="/img/testimonies_quote.png" alt="">
+                                                <img src="/img/testimonies_quote.png" alt="" style="width: 15%;">
                                                 <p>
                                                     Praise the Lord! I thank God for healing. I have always enjoyed good 
                                                     health, but in January this year, I had an ear infection. After taking 
@@ -467,7 +488,7 @@
                                                 <p class="testimony_name"><span><b>Samuel Ed</b></span> Lagos, Nigeria</p>
                                             </div>
                                             <div class="col-6 testimonies1">
-                                                <img src="/img/testimonies_quote.png" alt="">
+                                                <img src="/img/testimonies_quote.png" alt="" style="width: 15%;">
                                                 <p>
                                                     The testimony you are about to read is a reminder that the enemy seeks 
                                                     only to steal, kill and destroy the life and joy God has given us but 
@@ -482,7 +503,7 @@
                                     <div class="container">
                                         <div class="row testimonies_list">
                                             <div class="col-6 testimonies1">
-                                                <img src="/img/testimonies_quote.png" alt="">
+                                                <img src="/img/testimonies_quote.png" alt="" style="width: 15%;">
                                                 <p>
                                                     <!-- Praise the Lord! I thank God for healing. I have always enjoyed good 
                                                     health, but in January this year, I had an ear infection. After taking 
@@ -495,7 +516,7 @@
                                                 <p class="testimony_name"><span><b>Lorem, ipsum.</b></span> Lagos, Nigeria</p>
                                             </div>
                                             <div class="col-6 testimonies1">
-                                                <img src="/img/testimonies_quote.png" alt="">
+                                                <img src="/img/testimonies_quote.png" alt="" style="width: 15%;">
                                                 <p>
                                                     <!-- The testimony you are about to read is a reminder that the enemy seeks 
                                                     only to steal, kill and destroy the life and joy God has given us but 
@@ -512,7 +533,7 @@
                                     <div class="container">
                                         <div class="row testimonies_list">
                                             <div class="col-6 testimonies1">
-                                                <img src="/img/testimonies_quote.png" alt="">
+                                                <img src="/img/testimonies_quote.png" alt="" style="width: 15%;">
                                                 <p>
                                                     <!-- Praise the Lord! I thank God for healing. I have always enjoyed good 
                                                     health, but in January this year, I had an ear infection. After taking 
@@ -525,7 +546,7 @@
                                                 <p class="testimony_name"><span><b>Lorem, ipsum.</b></span> Lagos, Nigeria</p>
                                             </div>
                                             <div class="col-6 testimonies1">
-                                                <img src="/img/testimonies_quote.png" alt="">
+                                                <img src="/img/testimonies_quote.png" alt="" style="width: 15%;">
                                                 <p>
                                                     <!-- The testimony you are about to read is a reminder that the enemy seeks 
                                                     only to steal, kill and destroy the life and joy God has given us but 
@@ -561,11 +582,19 @@
                     <div class="col-12 grace_music">
                         <div class="grace_music_label">
                             <h3>Fragrance of Grace Music</h3>
-                            <span style="cursor: pointer;" onclick="window.open('https://open.spotify.com/show/6sfYNP1DTEnTmnnKiz5XKk', '_blank');"><img src="/img/spotify.png" alt=""></span>
-                            <span style="cursor: pointer;" onclick="window.open('https://music.youtube.com/watch?v=FKITMMvt2Q8', '_blank');"><img src="/img/yt_music.png" alt=""></span>
-                            <span style="cursor: pointer;" onclick="window.open('https://www.youtube.com/@TFOLCGraceFamily', '_blank');"><img src="/img/yt.png" alt=""></span>
-                            <span class="yt_play" style="cursor: pointer;"><img src="/img/yt_play.png" alt=""></span>
-                            <p class="yt" style="cursor: pointer;" onclick="window.open('https://music.youtube.com/watch?v=FKITMMvt2Q8', '_blank');">YouTube</p>
+                            <div class="links">
+                                <!-- <span style="cursor: pointer;" onclick="window.open('https://open.spotify.com/show/6sfYNP1DTEnTmnnKiz5XKk', '_blank');"><img src="/img/spotify.png" alt=""></span>
+                                <span style="cursor: pointer;" onclick="window.open('https://music.youtube.com/watch?v=FKITMMvt2Q8', '_blank');"><img src="/img/yt_music.png" alt=""></span>
+                                <span style="cursor: pointer;" onclick="window.open('https://www.youtube.com/@TFOLCGraceFamily', '_blank');">
+                                    <img src="/img/yt.png" alt="">
+                                    <img src="/img/yt_play.png" alt="" class="yt_play">
+                                </span> -->
+                                <a href="" class="spotify"><i class="bi bi-spotify"></i></a>
+                                <a href="" class="music"><i class="bi bi-file-music-fill"></i></a>
+                                <a href="" class="youtube"><i class="bi bi-youtube"></i><span> YouTube</span></a>
+                                <!-- <span class="yt_play" style="cursor: pointer;"><img src="/img/yt_play.png" alt=""></span> -->
+                                <!-- <p class="yt" style="cursor: pointer;" onclick="window.open('https://music.youtube.com/watch?v=FKITMMvt2Q8', '_blank');">YouTube</p> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -573,7 +602,9 @@
                     <div class="col-12 col-md-6 register_container">
                         <h3>Begin Your Discipleship Journey</h3>
                         <p>Register for the GRACE ACADEMY</p>
-                        <iframe src="https://www.youtube.com/embed/KXJ2gWrz7m8" title="The Impact of Thanksgiving - Short Drama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="responsive_iframe">
+                            <iframe src="https://www.youtube.com/embed/KXJ2gWrz7m8" title="The Impact of Thanksgiving - Short Drama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 Curriculum">
                         <h3>Download Your Curriculum</h3>
@@ -596,12 +627,13 @@
                     <div class="row">
                         <div class="col-12 col-md-6 pastor_tolu">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-2 col-md-2">
-                                        <img src="/img/pastorTolu.png" alt="">
-                                        <img src="/img/dotted_box_pastors.png" alt="">
+                                <div class="row pt">
+                                    <div class="col-12 col-md-2">
+                                        <!-- <img src="/img/pastorTolu.png" alt=""> -->
+                                        <img class="pt_dot"  src="/img/dotted_box_pastors.png" alt="">
+                                        <div class="pastor_tolu_image"></div>
                                     </div>
-                                    <div class="col-8 col-md-8 pastor_tolu_info">
+                                    <div class="col-12 col-md-10 pastor_tolu_info">
                                         <p>Tolulope Ige is a seasoned Architectural Technologist and Building performance expert.</p>
                                         <p>Prior to founding ALD studios in 2018, He worked in Amarch Consultants for 10 years as an Architectural Technologist and later as a project Architect with many completed building projects.</p>
                                         <p>
@@ -622,8 +654,13 @@
                         </div>
                         <div class="col-12 col-md-6 pastor_funke">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-8 col-md-8 pastor_funke_info">
+                                <div class="row pf">
+                                    <div class="col-12 col-md-2 pastor_funke_image_mobile" style="display: none;">
+                                        <img class="pf_dot" src="/img/dotted_box_pastors.png" alt="" class="dotted_box_pf">
+                                        <!-- <img src="/img/pastorFunke.png" alt=""> -->
+                                        <div class="pastor_funke_image"></div>
+                                    </div>
+                                    <div class="col-12 col-md-10 pastor_funke_info">
                                         <p>
                                             Olufunke Ige is the Principal Consultant at The Reconciler Company. She is a Life and Family coach, Emotional Intelligence Practitioner, Cognitive Behavioral therapist, Author, Teacher and Counselor. 
                                             She is expert in pre and post marriage counselling. 
@@ -641,9 +678,10 @@
                                         <p>She is the founder of Olufunke Tolulope Ige Ministries with different functional arms with OTIM foundation, raising David and Deborah, Faith Foundation Publications and Fire Conference. and convener with A fire brand Team of The Fire Conference.</p>
                                         <span><b>Pastor Olufunke Ige</b></span>
                                     </div>
-                                    <div class="col-2 col-md-2 pastor_funke_image">
+                                    <div class="col-12 col-md-2 pastor_funke_image_large">
                                         <img src="/img/dotted_box_pastors.png" alt="" class="dotted_box_pf">
-                                        <img src="/img/pastorFunke.png" alt="">
+                                        <!-- <img src="/img/pastorFunke.png" alt=""> -->
+                                        <div class="pastor_funke_image"></div>
                                     </div>
                                 </div>
                             </div>
@@ -658,30 +696,56 @@
         <!-- weekly nuggets -->
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="container">
-                            <div class="row spiritual_hunger">
-                                <div class="col-12 col-md-12">
-                                    <div class="spiritual_hunger1_verse">
-                                        <h3>SPIRITUAL HUNGER - Psalm 42 Pastor Tolulope Ige</h3>
-                                        <p>Wednesday 16th March, 2022 </p>
-                                        <div class="spiritual_hunger1"></div>
+                    <div class="col-12 col-md-6 hun_cont">
+                        <div class="hun">
+                            <div class="container">
+                                <div class="row hun_row">
+                                    <div class="col-12 col-md-12 ">
+                                        <div class="spiritual_hunger1_verse_a">
+                                            <div class="images_a">
+                                                <img class="img_1" src="/img/spiritual_hunger1.png" alt="" style="width: 100%;">
+                                                <!-- <img class="img_1mob" src="/img/spiritual_hunger1_mobile.png" alt="" style="width: 100%; display: none;"> -->
+                                            </div>
+                                            <div class="spiritual_hunger_content">
+                                                <h3>GOODNESS OF GOD - Psalm 91 Pastor Olufunke Ige</h3>
+                                                <p>Sunday 26th June, 2022</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="spiritual_hunger1_verse">
-                                        <h3>SPIRITUAL HUNGER - Psalm 42 Pastor Tolulope Ige</h3>
-                                        <p>Sunday 19th June, 2022 </p>
-                                        <div class="spiritual_hunger2"></div>
+                                </div>
+                                <div class="row hun_row">
+                                    <div class="col-12 col-md-12">
+                                        <div class="spiritual_hunger1_verse_a">
+                                            <div class="images_a">
+                                                <img class="img_1" src="/img/spiritual_hunger2.png" alt="" style="width: 100%;">
+                                                <!-- <img class="img_1mob" src="/img/spiritual_hunger2.png" alt="" style="width: 100%; display: none;"> -->
+                                            </div>
+                                            <div class="spiritual_hunger_content">
+                                                <h3>SPIRITUAL HUNGER - Psalm 42 Pastor Tolulope Ige</h3>
+                                                <p>Sunday 19th June, 2022 </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="spiritual_hunger1_verse">
-                                        <h3>GOODNESS OF GOD - Psalm 91 Pastor Olufunke Ige</h3>
-                                        <p>Sunday 26th June, 2022</p>
-                                        <div class="spiritual_hunger3"></div>
+                                </div>
+                                <div class="row hun_row_last">
+                                    <div class="col-12 col-md-12">
+                                        <div class="spiritual_hunger1_verse_a">
+                                            <div class="images_a">
+                                                <img class="img_1" src="/img/spiritual_hunger3.png" alt="" style="width: 100%;">
+                                                <!-- <img class="img_1mob" src="/img/spiritual_hunger3_mobile.png" alt="" style="width: 100%; display: none;"> -->
+                                            </div>
+                                            <div class="spiritual_hunger_content">
+                                                <h3>SPIRITUAL HUNGER - Psalm 42 Pastor Tolulope Ige</h3>
+                                                <p>Wednesday 16th March, 2022 </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+
+                    <div class="col-12 col-md-6 nuggets">
                         <div class="key_nuggets">
                             <div class="key_nuggets_header">
                                 <h3>Key Nuggets For This Week</h3>
@@ -713,6 +777,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="subscribe">
                 <div class="container">
                     <div class="row">
@@ -730,10 +795,10 @@
         </section>
 
         <footer>
-            <div class="container-fluid foot_container">
+            <div class="container-fluid foot_container" id="contact">
                 <div class="row">
-                    <div class="col-12 col-md-8 foot_info">
-                        <div class="dot_box4"></div>
+                    <div class="dot_box4"></div>
+                    <div class="col-12 col-md-7 foot_info">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-md-12 salvation">
@@ -749,7 +814,7 @@
                                 </div>
                             </div>
                             <div class="row mt-4">
-                                <div class="col-9 col-md-7 benediction">
+                                <div class="col-12 col-md-7 benediction">
                                     <h3>Benediction</h3>
                                     <p>
                                         For the law of the Spirit of life in Christ Jesus has set us free from the 
@@ -764,16 +829,18 @@
                                         <span><a href="https://www.youtube.com/c/TFOLCGraceFamily"><i class="bi bi-youtube"></i></a></span>
                                     </div>
                                 </div>
-                                <div class="col-3 col-md-5 location">
-                                    <h3>Location</h3>
-                                    <p>72 Isheri Rd, Omole Phase 1 101233, Lagos </p>
-                                    <p class="number">+234 708 404 8099</p>
-                                    <p class="mail">tfolcgracefamily@gmail.com </p>
+                                <div class="col-12 col-md-5 location">
+                                    <div class="location_content">
+                                        <h3>Location</h3>
+                                        <p class="address">72 Isheri Rd, Omole Phase 1 101233, Lagos </p>
+                                        <p class="number">+234 708 404 8099</p>
+                                        <p class="mail">tfolcgracefamily@gmail.com </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 foot_form">
+                    <div class="col-12 col-md-5 foot_form">
                         <div class="form_container">
                             <h3>Need Us To Pray For You?</h3>
                             <p>Fill out a prayer request</p>
